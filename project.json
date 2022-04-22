@@ -42,7 +42,12 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "775a02fe-4f31-4155-a335-4ba7094cec3e",
-        "fileName": "TestCase.xaml"
+        "fileName": "E2E\\accounting\\extjs\\会計の疎通確認.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7e786797-a9b4-404c-941f-0d566e99a808",
+        "fileName": "E2E\\accounting\\experiment\\ドメイン間の遷移確認.xaml"
       }
     ],
     "modernBehavior": true

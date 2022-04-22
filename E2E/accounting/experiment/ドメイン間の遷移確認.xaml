@@ -1,0 +1,157 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="ドメイン間の遷移確認" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1087,892" sap2010:WorkflowViewState.IdRef="ドメイン間の遷移確認_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="ドメイン間の遷移確認" sap:VirtualizedContainerService.HintSize="830,827" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="ブラウザーを使用 Chrome: A-SaaS ログイン" sap:VirtualizedContainerService.HintSize="788,735" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="71a69c16-7ec2-4ffe-98ea-cc3fc8570ad6" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="実行" sap:VirtualizedContainerService.HintSize="754,519" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="クリック '初めての方へ'" sap:VirtualizedContainerService.HintSize="712,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="71a69c16-7ec2-4ffe-98ea-cc3fc8570ad6" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg.a-saas.io/" DesignTimeRectangle="728, 568, 232, 64" ElementType="Text" FriendlyName="'初めての方へ'" FullSelectorArgument="&lt;webctrl aaname='初めての方へ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='初めての方へ' tag='A' type='' check:text='初めての方へ' /&gt;" Guid="ed8cd880-39f3-40c4-9650-51f72442522b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOwAAABECAYAAACCnNmXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATTSURBVHhe7Z3RatxGFIaXQKC0kJveFvpKjRND27dxYxP6Gm1s0ucoTdIXMDYGX9Rx6ktjMAazXkVnds7smdGM5M3aGw37fXCy2pmRVjbn0y8thkwaAKgGhAWoiCDs4eEhRVEjLSUSFgDGB8ICVATCAlQEwgJUBMICVATCAlQEwgJUBMICVATCAlQEwgJUBMICVATCAlREJOxsNnMbCAswTsRN9ZSEBRg5UcL6V4QFGCkkLEBFRAnLMyzAuCFhASqChAWoCBIWoCI6CSuFsADjRBNWioTt4ezszP1eLi4u/EgZWSNrZR+Ah8S6ScIWuL6+dr8TrfPzcz/TRebsWtkX4KGQniJhB0iFlRIxp9OpX9G47VRWqY0WdvZv82rytPlm928/AKsiPaWQsAVywkqdnp46UaVkO7dmaWF9k798+9G9/Wfnx2YymcT19Kfm4OOdm+/g93/y8x/N/37oq4GwD470VEhY+UcHYUFJWCkR1coq25eXl+H9MsLO3v3ekXPvw3Q+7iW123YfWTcfKAublT9TWdn/+6t5PnkSr32207z300Lu/EsVzheWQnpKPSVhC/QJa0u+ZJK0teuXTljHRfPm5fdBnD5hVSRJ5E/7v3bE0KTOM/+c/nWLNXsfzt22JqZeAHL7di4kAwTZ++4ewPWUekrCFriPsPaLqFWFTZu9V1gjlBPcCxySuR0v3ZL2Cae4Nfp5mVvcaN6Q/gy9+OPKeldJcsMC6Sn1lIQtMCRs+q3xasKadG3l22pf3+3/UhRWxdAxl7JmXlO3I44XO3v769FjB6FNmgf8WHpRyKW9q4zceuGwF5m+89pkpKfUU4QtMCRsyirChkZvU2Z35wcnh2tonzqRsD6Zvvtt171+++rPhezzw+Ula+nImCFNT90nkr/wxZI9ZyW9mAh6zE5qI20W6SmEHWBtwnq5pFm3trd8w88TVxvaCmvT0yZaJNRAAnaS15BK5/ZJJMwevyBxR1i9FU6P2YK0eaSnImF1EBasR9hWzO0XzcHZe9fEmqx7B/tRQnaE1Wb34qQNXkrSbFomxMLGFw4ld/zSsVNhVcr8OSyezXNCbyrSU5GwUrkm3GTWI6zHp44KkE25jLD5RPJNb1NNKaSgxV4c7HYgl5A9x00vAJ/2X3cuJCn5n2tzkZ5C2AGWFfbq6irMrSJsLqmiVDUpVErWdH+LrumT1n2eHCeRVUWKx/35WIED87kvEU/Ooe9OYJOQnkLYAW5vb5ujo6MgYVqWm5ub5vj42I3LPrLvUhhhRQqVKYjTVm8qmefgofSaY249pbKyLbDnkUok59t34cgmPSyF9BXC3gP710tpKVZWKdkH4CGRvgrC3t21zyoIW6QkrYCssA6kt9RTEvYe5KSVMWSFdSD9pZ6SsPeklLRSyAqPifQYCfsFiJj2iyjZRlZ4bKTX1FMSdknkufXk5MSVbAM8NuKmeCpFwgKMHBIWoCJIWICK6CSsFMICjBMSFqAiVFgSFqACSFiAiiBhASoiSlg1F2EBxgkJC1ARnYRFWIDxgrAAFdERlmdYgPFCwgJUBMICVATCAlQEwgJURCSs/N+mCAswXsRN9ZSEBRg5JCxARZCwABVRTFiKosZZ4qlUSFiKosZfIWHVYPs+fWWeeea/5vy0+QyKc3JCBEW/2QAAAABJRU5ErkJggg==" InformativeScreenshot="f39e2b560e5c19840af17ed7803bbda3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='A-SaaS ログイン' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="コントロールの属性を検証" sap:VirtualizedContainerService.HintSize="712,230" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="Text" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyControlAttribute.ActivityToTest>
+                <ActivityAction>
+                  <uix:NGetText DisplayName="テキストを取得 'リリースノート'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="71a69c16-7ec2-4ffe-98ea-cc3fc8570ad6" Version="V1">
+                    <uix:NGetText.OutUiElement>
+                      <OutArgument x:TypeArguments="ui:UiElement">
+                        <VariableReference x:TypeArguments="ui:UiElement">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="ui:UiElement" Name="OutUiElement" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.OutUiElement>
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://a-saas.info/new_accounting/" DesignTimeRectangle="345, 175, 117, 39" ElementType="Text" FriendlyName="'リリースノート'" FullSelectorArgument="&lt;webctrl parentid='menu-item-7559' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='menu-item-7559' tag='A' type='' /&gt;" Guid="38f994bb-e6d7-41fd-bfad-6556b7a11935" InformativeScreenshot="3f7028c3c9ec98cf8c2d42007112e330.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='「新・会計システム」のご利用方法 | A-SaaS Information' /&gt;" SearchSteps="FuzzySelector" />
+                    </uix:NGetText.Target>
+                    <uix:NGetText.Text>
+                      <OutArgument x:TypeArguments="x:Object">
+                        <VariableReference x:TypeArguments="x:Object">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="x:Object" x:Name="__ReferenceID0" Name="Text" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.Text>
+                    <uix:NGetText.WordsInfo>
+                      <OutArgument x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                        <VariableReference x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)" Name="WordsInfo" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.WordsInfo>
+                  </uix:NGetText>
+                </ActivityAction>
+              </uta:VerifyControlAttribute.ActivityToTest>
+              <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                <ActivityFunc x:TypeArguments="x:Object">
+                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                    <uta:ArgumentsBridge.Input>
+                      <InArgument x:TypeArguments="x:Object">
+                        <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                      </InArgument>
+                    </uta:ArgumentsBridge.Input>
+                  </uta:ArgumentsBridge>
+                </ActivityFunc>
+              </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+              <uta:VerifyControlAttribute.Expression>
+                <InArgument x:TypeArguments="x:String">["リリースノート"]</InArgument>
+              </uta:VerifyControlAttribute.Expression>
+            </uta:VerifyControlAttribute>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="862702b9561bc88b3bfe47090d82c219.png" Selector="&lt;html app='chrome.exe' title='A-SaaS ログイン'/&gt;" Url="https://stg.a-saas.io/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
