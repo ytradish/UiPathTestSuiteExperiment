@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
-  "projectVersion": "1.0.104205188",
+  "projectVersion": "1.0.104288047",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -45,7 +45,7 @@
         "fileName": "E2E\\accounting\\extjs\\会計の疎通確認.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "7e786797-a9b4-404c-941f-0d566e99a808",
         "fileName": "E2E\\accounting\\experiment\\ドメイン間の遷移確認.xaml"
       }
