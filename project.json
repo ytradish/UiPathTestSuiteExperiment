@@ -3,6 +3,7 @@
   "description": "テスト オートメーション プロジェクトです。",
   "main": "Main.xaml",
   "dependencies": {
+    "LoginLibrary3": "[1.0.2]",
     "UiPath.System.Activities": "[21.10.4]",
     "UiPath.Testing.Activities": "[1.4.6]",
     "UiPath.UIAutomation.Activities": "[21.10.5]"
@@ -48,6 +49,11 @@
         "editingStatus": "Publishable",
         "testCaseId": "7e786797-a9b4-404c-941f-0d566e99a808",
         "fileName": "E2E\\accounting\\experiment\\ドメイン間の遷移確認.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a6030670-a4b5-4d3e-aa49-a8a4cf449a36",
+        "fileName": "E2E\\accounting\\experiment\\UIライブラリを使ったテスト.xaml"
       }
     ],
     "modernBehavior": true
